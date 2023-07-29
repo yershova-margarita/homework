@@ -11,7 +11,7 @@ int SecondDigit(int num) {
 
 Console.WriteLine("Введите трехзначное число : ");
 int userNum = Convert.ToInt32(Console.ReadLine());
-if ((userNum > -100 || userNum < -999) && (userNum < 100 || userNum > 999))
+if ((userNum > -100 || userNum < -999) || (userNum < 100 || userNum > 999))
 {
     Console.WriteLine($"Число {userNum} не является трехзначным");
 }
