@@ -28,7 +28,7 @@ int userN = Convert.ToInt32(Console.ReadLine());
 
 if (userM < 1 || userN < 1)
 {
-    Console.WriteLine("Не корректный ввод: ");
+    Console.WriteLine("Некорректный ввод: ");
     return;
 }
 PrintSumNaturalNumbers(userM, userN);
